@@ -1,0 +1,130 @@
+@font-face{
+    font-family: "PlayfairDisplay";
+    src: url("Fonts/PlayfairDisplay-Regular.ttf")format("ttf");
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "PlayfairDisplay", serif;
+}
+header{
+    margin-bottom: 50px;
+
+}
+#imgHeader{
+    background-image: url("img/hamburger.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height:800px;
+   /* border: solid 1px red;*/
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    color: rgb(20, 20, 20);
+    letter-spacing: 3px;
+    padding: 0 20px 0 0;
+}
+li{
+    display: inline;
+    margin-left: 10px;
+    padding: 5px;
+}
+li:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+#logo{
+    padding:0 0 0 35px;
+}
+
+#About,#ourmenu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.block{
+    width: 40%;
+    margin: 5%;
+    /* min-width: 200px; */
+    /* border: solid 1px red; */
+}
+.mainImg{
+    width: 100%;
+} 
+
+.textBloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+#textabout>h3{
+    text-align: center;
+}
+
+.titre{
+    padding: 5px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.sousTitre{
+    padding: 5px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.backgroundColor{
+    background-color: rgb(220,220, 220);
+}
+#contact{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+
+}
+.champ{
+    width: 100%;
+    height: 50px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-color: lightgrey;
+    margin: 10px 0 10px 0;
+}
+#bouttonE{
+    margin: 20px 0 70px 0;
+    background:    #eeeeee;
+    border-style: none;
+    padding:       10px 25px;
+    color:         #000000;
+    display:       inline-block;
+    font:          normal normal 18px/1 "Playfair Display", serif;
+    text-align:    center;
+}
+#bouttonE:hover{
+    background:   grey;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240,240, 240);
+    height: 125px;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 900;
+}
+.adress{
+    color: royalblue;
+}

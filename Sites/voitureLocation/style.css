@@ -1,0 +1,28 @@
+nav{
+    width: 100% !important;
+    margin: 0 auto;
+    z-index: 1 !important;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+

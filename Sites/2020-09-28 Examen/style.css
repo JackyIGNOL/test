@@ -1,0 +1,189 @@
+/* 0 Général */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textjaune{
+    color:rgb(235, 160, 6);
+}
+.contenu{
+    width: 839px;
+    margin: 0 auto;
+}
+/* 0.0)Header */
+header{
+    background-color: rgb(243, 243, 243);
+    height: 170px;
+}
+header .contenu{
+    display: flex;
+    flex-direction: row;
+    width: 840px;
+}
+.degrade{
+    color: rgba(0, 0, 0, 0);
+    height: 170px;
+    width: 5px;
+    background:linear-gradient(#F3F3F3, #EBA006);
+}
+h1{
+    font-size: 1.2em;
+    font-weight: normal;
+}
+.header1{
+    display: flex;
+    width: 100%;
+    height: 170px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.header11{
+    width: 100%;
+    margin: 30px 0px 0 0px;
+}
+.header111{
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+    border: black 1px solid;
+    padding: 10px 40px;
+    background-color: rgb(233, 233, 233);
+}
+.header1111{
+    display: flex;
+    align-items: center ;
+    margin: auto 0;
+}
+header p{
+    text-align: right;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin: auto 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    border-left: grey solid 1px;
+}
+header li{
+    display: inline;
+    margin: 0 0;
+    border-right: grey solid 1px;
+    padding: 5px 10px ;
+    /* border: red 1px solid; */
+}
+header a{
+    font-size: 0.8em;
+    padding: 10px 10px ;
+    margin: 0 0  10px  0;
+}
+/* 0.1)Main */
+main{
+    padding-top: 10px;
+}
+.imgHeader{
+    width: 100%;
+    box-shadow: 0px 0px 10px black; 
+}
+main{
+    background-color: black;
+}
+main .contenu{
+    background-color: rgb(243, 243, 243);
+}
+.produits{
+    width: 100%;
+    margin: auto;
+    padding: 20px 5%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+article{
+    width: 45%;
+}
+figure{
+    position: relative;
+    background-color: white;
+    box-shadow: 0px 0px 10px black; 
+}
+.promo{
+    position: absolute;
+    right: -10px;
+    top:5px;
+    background-color: rgb(58, 58, 58);
+    border: 6px ridge rgba(108, 108, 108, 1);
+    border-radius: 5px;
+    font-size: 2em;
+    padding: 5px 10px;
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    font-size: 0.6em;
+    padding: 5px 0;
+    text-align: center;
+}
+.bouttonetprix{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 0.9em;
+    padding: 5px 20px;
+}
+.prixBarré{
+    text-decoration: line-through;
+}
+.prix{
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: black solid 1px;
+}
+/* 0.2)Footer */
+footer{
+    padding-top: 20px;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer1{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius:0 0 5px 5px;
+}
+footer div{
+    margin: 20px 0;
+}
+footer li{
+    display: inline;
+    padding: 10px 20px;
+    color: black;
+}
+.footer2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin: 0 auto;
+}
+.footer21{
+    text-align: center;
+    font-size: 0.6em;
+    margin: 0 5px;
+}
+.footer3{
+    width: 350px;
+    padding-top: 10px;
+    border-top:grey 1px solid ;
+    display: flex;
+    justify-content: space-evenly;
+}
